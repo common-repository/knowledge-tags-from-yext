@@ -1,0 +1,28 @@
+#toplevel_page_yext .wp-menu-image {
+  background: url('../images/yext-wp-icon-light.png') center center no-repeat;
+}
+
+#toplevel_page_yext a.current .wp-menu-image {
+  background: url('../images/yext-wp-icon-dark.png') center center no-repeat;
+}
+
+table#yext-shortcode-table tr {
+    border: 1px solid black;
+
+}
+table#yext-shortcode-table th {
+    text-align:left;
+    padding:10px;
+}
+table#yext-shortcode-table td {
+    padding:10px;
+
+}
+table {
+  width:100%;
+  border-collapse: collapse;
+}
+.error{
+  color:red;
+  font-size: 20px;
+}
